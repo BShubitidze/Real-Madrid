@@ -1,0 +1,39 @@
+.container {
+    width: 1920px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1920px;
+    height: 100px;
+    background: rgba(9, 9, 189, 0.705);
+    color: rgb(255, 255, 255);
+}
+.header_logo {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+}
+.header_logo img {
+    width: 50px;
+}
+.btn-register-sign_in {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+.main_container {
+    width: 25%;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+.item {
+    height: 250px;
+    margin: 0 auto;
+}
