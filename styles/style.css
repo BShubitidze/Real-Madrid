@@ -1,7 +1,6 @@
 .container {
-    width: 1920px;
-    box-sizing: border-box;
-    margin: 0 auto;
+    width: 1900px;
+    margin: 0;
     padding: 0;
 }
 .header_container {
@@ -28,12 +27,29 @@
     align-items: center;
     justify-content: space-around;
 }
-.main_container {
-    width: 25%;
+.main_bootstrap_carousel {
+    width: 500px;
     margin-top: 10px;
     margin: 0 auto;
 }
 .item {
     height: 250px;
     margin: 0 auto;
+}
+.flex_container {
+    display: flex;
+    width: 1800px;
+    height: 600px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.flex_container img {
+    width: 400px;
+    height: 600px;
+}
+.flex_container p {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
 }
